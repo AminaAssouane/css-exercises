@@ -21,7 +21,7 @@ body {
 .left,
 .right {
   display: flex;
-  justify-content: space-evenly;
+  align-items: center;
   gap: 16px;
 }
 
@@ -56,4 +56,9 @@ a {
 
 ul {
   list-style-type: none;
+  display: flex;
+  gap: 16px;
+  margin: 0px;
+  padding: 0px;
+  align-items: center;
 }
