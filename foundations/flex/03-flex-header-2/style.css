@@ -18,7 +18,8 @@ body {
   align-items: center;
 }
 
-.left .right {
+.left,
+.right {
   display: flex;
   justify-content: space-evenly;
   gap: 16px;
