@@ -38,7 +38,8 @@ body {
   border: 1px solid #eee;
   box-shadow: 2px 4px 16px rgba(0, 0, 0, .06);
   border-radius: 4px;
-  max-width: 300px;
+  width: 300px;
+  padding: 16px;
 }
 
 ul {
@@ -47,12 +48,14 @@ ul {
   padding: 0;
 }
 
+li {
+  margin-bottom: 16px;
+}
+
 a {
   text-decoration: none;
   font-size: 24px;
   color: white;
-  margin: 0;
-  padding: 0;
 }
 
 .container {
@@ -64,5 +67,5 @@ a {
   display: flex;
   flex-wrap: wrap;
   padding: 48px;
-  gap: 30px;
+  gap: 32px;
 }
